@@ -138,6 +138,10 @@ Delete an employee
 
 ---
 
+### add page
+![image](https://github.com/user-attachments/assets/eb668c43-2f71-4c37-8cad-622f4845bf0b)
+
+
 ### 📝 License
 
 This project is open-source and available for personal or educational use. Feel free to contribute or modify it as needed.
