@@ -146,6 +146,26 @@ Delete an employee
 ### add page
 ![image](https://github.com/user-attachments/assets/eb668c43-2f71-4c37-8cad-622f4845bf0b)
 
+---
+
+### delete employee page
+![image](https://github.com/user-attachments/assets/21200360-f73f-41d6-8716-6b1b27193892)
+
+---
+
+### fetch employee by id page
+![image](https://github.com/user-attachments/assets/36ca2008-2e87-4605-ad9f-e4832338418c)
+
+---
+
+### update employee by id page
+![image](https://github.com/user-attachments/assets/9de695d5-b0e3-43ca-8d18-c7def9102ac8)
+
+---
+
+### fetch all employees pag
+![image](https://github.com/user-attachments/assets/a5b71ff9-ed56-491f-9ec9-7e0a8bab32de)
+
 
 ### 📝 License
 
