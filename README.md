@@ -71,7 +71,7 @@ Backend Setup (Spring Boot)
 
 ### Clone the repository:
 
-git clone https://github.com/your-username/Employee-Management-System.git
+[git clone https://github.com/your-username/Employee-Management-System.git](https://github.com/aimansheikh17/Employee_Management_System.git)
 cd Employee-Management-System/backend
 
 ### Configure the database in application.properties:
