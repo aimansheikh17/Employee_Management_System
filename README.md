@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+ ### <h1> Employee Management System<h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 📌 **Project Overview**
 
-## Available Scripts
+The **Employee Management** System is a web application built using React.js for the frontend and Spring Boot for the backend. This system allows users to manage employee records with essential CRUD operations such as adding, updating, deleting, and fetching employee details.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Add Employee** – Create new employee records.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Delete Employee** – Remove employees by ID.
 
-### `npm test`
+**Fetch All Employees** – Retrieve a list of all employees.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Update Employee** – Modify existing employee details.
 
-### `npm run build`
+**Fetch Employee by ID** – Get details of a specific employee.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**🛠 Tech Stack**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Frontend (React.js, HTML, CSS)**
 
-### `npm run eject`
+**React.js**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**HTML, CSS**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Axios (for API calls)**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**React Router (for navigation)**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Backend (Spring Boot, Java, SQL)**
 
-## Learn More
+**Spring Boot (REST API)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Spring Data JPA**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**MySQL (Database)**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Spring Boot Security (if authentication is included)**
 
-### Analyzing the Bundle Size
+### 📂 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Employee-Management-System/
+│── backend/                     # Spring Boot backend
+│   ├── src/main/java/com/example/employeesystem/  # Java source code
+│   ├── src/main/resources/      # Application properties
+│   ├── pom.xml                  # Maven dependencies
+│
+│── frontend/                    # React.js frontend
+│   ├── src/
+│   │   ├── components/          # React components
+│   │   ├── pages/               # Pages (Add, Update, Delete, etc.)
+│   ├── public/
+│   ├── package.json             # Node dependencies
+│
+│── README.md                    # Project documentation
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 💻 Setup & Installation
 
-### Advanced Configuration
+Backend Setup (Spring Boot)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Clone the repository:
 
-### Deployment
+git clone https://github.com/your-username/Employee-Management-System.git
+cd Employee-Management-System/backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Configure the database in application.properties:
 
-### `npm run build` fails to minify
+spring.datasource.url=jdbc:mysql://localhost:3306/employees_db
+spring.datasource.username=root
+spring.datasource.password=your_password
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Build and run the backend:
+
+mvn spring-boot:run
+
+Frontend Setup (React.js)
+
+Navigate to the frontend directory:
+
+cd ../frontend
+
+Install dependencies:
+
+npm install
+
+Start the frontend:
+
+npm start
+
+🔗 API Endpoints
+
+Method
+
+Endpoint
+
+Description
+
+GET
+
+/api/employees
+
+Fetch all employees
+
+GET
+
+/api/employees/{id}
+
+Fetch employee by ID
+
+POST
+
+/api/employees/add
+
+Add a new employee
+
+PUT
+
+/api/employees/update/{id}
+
+Update employee details
+
+DELETE
+
+/api/employees/delete/{id}
+
+Delete an employee
+
+---
+
+### 📝 License
+
+This project is open-source and available for personal or educational use. Feel free to contribute or modify it as needed.
+
+✨ Author
+
+***Your Name:*** Mohammed Aiman
+
+***GitHub:*** your-username
+
+Enjoy coding! 🚀
