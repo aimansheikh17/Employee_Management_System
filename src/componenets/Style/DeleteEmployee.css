@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #083344;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Main Container */
+  .delete-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #004c5c; /* Teal background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 600px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .delete-employee1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+  }
+  
+  /* Input Field */
+  .input1 {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .input1:focus {
+    outline: none;
+    box-shadow: 0 0 5px #00acc1;
+  }
+  
+  /* Buttons */
+  .search-btn,
+  .delete-btn,
+  .back-btn1 {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+  }
+  
+  .search-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .back-btn1 {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .back-btn1:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Employee Details */
+  .employee-details {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    color: black;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .employee-details p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  /* Message Styling */
+  .message {
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
