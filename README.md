@@ -138,6 +138,11 @@ Delete an employee
 
 ---
 
+### home page
+![image](https://github.com/user-attachments/assets/7740280d-aed1-4de9-bc74-07790f8bfa2b)
+
+---
+
 ### add page
 ![image](https://github.com/user-attachments/assets/eb668c43-2f71-4c37-8cad-622f4845bf0b)
 
